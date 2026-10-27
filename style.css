@@ -20,7 +20,7 @@
                         
                         .nav {
                             background: #ffffff;
-                            padding: 1rem 2rem ;
+                            padding: 1rem 2rem;
                             border-bottom: 1px solid #e5e7eb;
                             display: flex;
                             justify-content: center;
@@ -39,7 +39,7 @@
                             margin: 0;
                             padding: 0;
                             display: flex;
-                            gap:  1.75rem;
+                            gap: 1.75rem;
                             flex-direction: row;
                         }
                         
@@ -47,7 +47,7 @@
                             color: #4b5563;
                             text-decoration: none;
                             font-weight: 500;
-                            font-size: 15px;
+                            font-size: 0.9rem;
                             display: none;
                         }
                         
@@ -58,10 +58,10 @@
                         
                         .profile {
                             max-width: 1100px;
-                            margin: 40px auto;
-                            padding: 0 24px;
+                            margin: 0.9rem auto;
+                            padding: 0 0 1.5rem;
                             display: flex;
-                            gap: 32px;
+                            gap: 2rem;
                             align-items: flex-start;
                         }
                         /* ---------- Sidebar ---------- */
@@ -69,8 +69,8 @@
                         .sidebar {
                             background: #ffffff;
                             border: 1px solid #e5e7eb;
-                            border-radius: 16px;
-                            padding: 28px;
+                            border-radius: 1rem;
+                            padding: 1.75rem;
                             text-align: center;
                             flex-shrink: 0;
                             box-shadow: 0 8px 24px rgba(99, 102, 241, 0.08);
@@ -81,12 +81,12 @@
                             height: 130px;
                             border-radius: 50%;
                             border: 4px solid #6366f1;
-                            margin-bottom: 16px;
+                            margin-bottom: 1rem;
                             box-shadow: 0 6px 16px rgba(99, 102, 241, 0.25);
                         }
                         
                         .name {
-                            font-size: 22px;
+                            font-size: 1.3rem;
                             font-weight: 800;
                             margin: 0 0 4px 0;
                             color: #111827;
@@ -94,30 +94,30 @@
                         }
                         
                         .title {
-                            font-size: 14px;
+                            font-size: 0.8rem;
                             color: #6b7280;
-                            margin: 0 0 4px 0;
+                            margin: 0 0 .25rem 0;
                             font-weight: 500;
                         }
                         
                         .location {
-                            font-size: 14px;
+                            font-size: 0.8rem;
                             color: #6b7280;
                             margin: 0 0 20px 0;
                         }
                         
                         .contacts {
                             border-top: 1px solid #e5e7eb;
-                            padding-top: 16px;
+                            padding-top: 1rem;
                         }
                         
                         .contacts a {
                             display: block;
                             color: #6366f1;
                             text-decoration: none;
-                            font-size: 14px;
+                            font-size: 0.8rem;
                             font-weight: 500;
-                            margin: 8px 0;
+                            margin: 0.5rem 0;
                         }
                         
                         .contacts a:hover {
@@ -133,9 +133,9 @@
                         .skills {
                             background: #ffffff;
                             border: 1px solid #e5e7eb;
-                            border-radius: 16px;
-                            padding: 28px;
-                            margin-bottom: 24px;
+                            border-radius: 1rem;
+                            padding: 1.75rem;
+                            margin-bottom: 1.5rem;
                             box-shadow: 0 8px 24px rgba(99, 102, 241, 0.08);
                         }
                         
@@ -146,11 +146,11 @@
                             letter-spacing: 0.12em;
                             text-transform: uppercase;
                             color: #6366f1;
-                            margin: 0 0 14px 0;
+                            margin: 0 0 0.8rem 0;
                         }
                         
                         .about p {
-                            font-size: 16px;
+                            font-size: 0.8rem;
                             line-height: 1.65;
                             color: #374151;
                             margin: 0;
@@ -159,14 +159,14 @@
                         
                         .skill-cards {
                             display: flex;
-                            gap: 16px;
+                            gap: 1rem;
                         }
                         
                         .skill-card {
                             background: #f9fafb;
                             border: 1px solid #e5e7eb;
-                            border-radius: 12px;
-                            padding: 22px 18px;
+                            border-radius: 0.75rem;
+                            padding: 1.3rem 1.125rem;
                             text-align: center;
                             flex: 1;
                             transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -180,19 +180,19 @@
                         }
                         
                         .skill-icon {
-                            font-size: 36px;
-                            margin-bottom: 10px;
+                            font-size: 2.25rem;
+                            margin-bottom: 0.6rem;
                         }
                         
                         .skill-card h3 {
-                            font-size: 16px;
+                            font-size: 1rem;
                             font-weight: 700;
                             color: #111827;
-                            margin: 0 0 6px 0;
+                            margin: 0 0 0.3rem 0;
                         }
                         
                         .skill-card p {
-                            font-size: 14px;
+                            font-size: 0.8rem;
                             color: #6b7280;
                             line-height: 1.5;
                             margin: 0;
@@ -202,8 +202,8 @@
                         .footer {
                             background: #ffffff;
                             border-top: 1px solid #e5e7eb;
-                            padding: 24px 32px;
-                            margin-top: 60px;
+                            padding: 1.5rem 2rem;
+                            margin-top: 3.75rem;
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
@@ -213,17 +213,17 @@
                         .footer-copy {
                             margin: 0;
                             color: #6b7280;
-                            font-size: 14px;
+                            font-size: 0.8rem;
                         }
                         
                         .footer-links {
                             display: flex;
-                            gap: 20px;
+                            gap: 1.25rem;
                         }
                         
                         .footer-links a {
                             color: #6b7280;
-                            font-size: 14px;
+                            font-size: 0.8rem;
                             text-decoration: none;
                             font-weight: 500;
                         }
