@@ -251,7 +251,9 @@
                                 flex-direction: column-reverse;
                             }
                               .profile {
-                            flex-direction: column;
+                                flex-direction:column;
+
+                        
                         }
                         
                         .skill-cards {
