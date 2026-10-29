@@ -235,17 +235,7 @@
    👇 TASK 2: MAKE IT RESPONSIVE 👇
    ============================================================ */
                         
-                        .profile {
-                            flex-direction: column;
-                        }
-                        
-                        .skill-cards {
-                            flex-direction: column;
-                        }
-                        
-                        .sidebar {
-                            width: 100%;
-                        }
+                      
                         /*
   On screens 768px or smaller:
     - .profile should stack vertically (flex-direction: column)
@@ -260,4 +250,15 @@
                             .nav {
                                 flex-direction: column-reverse;
                             }
+                              .profile {
+                            flex-direction: column;
+                        }
+                        
+                        .skill-cards {
+                            flex-direction: column;
+                        }
+                        
+                        .sidebar {
+                            width: 100%;
+                        }
                         }
